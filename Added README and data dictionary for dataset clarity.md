@@ -53,6 +53,7 @@ This dataset captures the dating behaviors, preferences, and challenges faced by
 
 ---
 
+
  **Data Cleaning Steps**
 1. **Duplicate Removal:**
    - No duplicate rows were detected in the dataset.
@@ -67,6 +68,13 @@ This dataset captures the dating behaviors, preferences, and challenges faced by
 
 4. **Outlier Detection:**
    - No outliers were found in the **`Age`** and **`Satisfaction`** columns using the IQR method.
+
+5. **Data Type Corrections:**
+   - Ensured that all numerical and categorical columns were appropriately typed.
+   - Converted time-related columns (e.g., `Daily_Usage_Time`) to consistent formats for further analysis.
+
+6. **New Feature Creation:**
+   - Created new column **`Primary_App_missing`** to flag rows where the `Primary_App` was originally missing.
 
 ---
 
