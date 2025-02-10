@@ -30,6 +30,28 @@ This dataset captures the dating behaviors, preferences, and challenges faced by
 | `Partner_Priorities`          | Traits prioritized in a partner (e.g., Appearance, Values, Personality) | Categorical  |
 
 ---
+ **Data Dictionary**
+
+| **Column Name**               | **Type**     | **Description**                                                |
+|-------------------------------|--------------|----------------------------------------------------------------|
+| `User_ID`                     | Numerical    | Unique identifier assigned to each user.                       |
+| `Age`                         | Numerical    | Age of the user in years, ranging from 18 to 25.               |
+| `Gender`                      | Categorical  | User's gender identity (e.g., Male, Female, Non-binary).       |
+| `Location`                    | Categorical  | User's city or region of residence.                            |
+| `Education`                   | Categorical  | Highest education level achieved (e.g., Undergraduate, Graduate). |
+| `Occupation`                  | Categorical  | User's current employment status (e.g., Student, Freelancer).  |
+| `Primary_App`                 | Categorical  | The main dating app the user prefers.                          |
+| `Secondary_Apps`              | Categorical  | Other dating apps the user uses alongside their primary app.   |
+| `Usage_Frequency`             | Categorical  | Frequency of dating app usage (e.g., Daily, Weekly, Monthly).  |
+| `Daily_Usage_Time`            | Categorical  | Time spent daily on dating apps (e.g., 30 minutes, 1 hour).    |
+| `Reason_for_Using`            | Categorical  | The primary reason the user engages with dating apps.          |
+| `Satisfaction`                | Numerical    | User's satisfaction rating on a 1-5 scale (1 = Very Dissatisfied, 5 = Very Satisfied). |
+| `Challenges`                  | Categorical  | Common issues faced by users while using dating apps.          |
+| `Desired_Features`            | Categorical  | Features that users would like to see added to dating apps.    |
+| `Preferred_Communication`     | Categorical  | Preferred method of communication with matches (e.g., Text, Video Calls). |
+| `Partner_Priorities`          | Categorical  | Traits users prioritize when selecting a partner.              |
+
+---
 
  **Data Cleaning Steps**
 1. **Duplicate Removal:**
@@ -95,4 +117,3 @@ For questions or collaboration, please contact:
 **GitHub:** [(https://github.com/Papiiii01/ML-EDA.git)]
 
 ---
-
